@@ -5,7 +5,7 @@
 ╠══════════════════════════════════════════════════╣
 ║ Alumno: Alfredo López Allende                    ║
 ║ RUT   : XX.XXX.XXX-3                             ║
-║ Fecha Entrega: 09 de julio de 2023               ║
+║ Fecha Entrega: 02 de julio de 2023               ║
 ╚══════════════════════════════════════════════════╝
 */
 // Clase para representar un personaje de Rick And Morty.
