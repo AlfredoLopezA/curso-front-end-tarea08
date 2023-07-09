@@ -1,0 +1,52 @@
+/* 
+╔══════════════════════════════════════════════════╗
+║                Curso Front-End                   ║
+║                   Tarea Nº 8                     ║
+╠══════════════════════════════════════════════════╣
+║ Alumno: Alfredo López Allende                    ║
+║ RUT   : XX.XXX.XXX-3                             ║
+║ Fecha Entrega: 09 de julio de 2023               ║
+╚══════════════════════════════════════════════════╝
+*/
+@font-face {
+    font-family: 'Rick And Morty';
+    src: url('../font/get_schwifty.ttf') format('truetype');
+}
+  
+/* Estilos para el cuerpo de la página y etiquetas html. */
+body {
+    background-color: black;
+    font-family: 'Rick And Morty', sans-serif;
+
+}
+
+h1, h2, h3, p {
+    color:  #04bcd4;
+    font-size: 50px;
+    text-align: center;   
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Centra la imagen del logo. */
+.contenedor-logo {
+    display: flex;
+    justify-content: center;
+}
+
+/* Formato para celulares. */
+@media (max-width: 360px) {
+    h1 { font-size: 30px; }
+    h2 { font-size: 25px; }
+    h3 { font-size: 15px; }
+}
